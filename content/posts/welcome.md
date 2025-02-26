@@ -1,6 +1,5 @@
 +++
 date = '2025-02-25T23:18:31+06:00'
-draft = true
 title = 'Welcome'
 author = 'Munirun Nessa'
 description = 'Welcome to the official blog of the BRACU VLSI'
