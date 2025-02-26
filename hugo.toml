@@ -1,0 +1,41 @@
+baseURL = 'https://vlsibu.netlify.app/'
+languageCode = 'en-us'
+theme = 'hugo-PaperMod-8.0'
+title = 'VLSIBU Blog'
+
+[params]
+
+  # Add this section for social links
+  [[params.Social]]
+  name = "GitHub"
+  url = "https://github.com/Tou-Rahman"
+  
+  # [[params.Social]]
+  # name = "Twitter"
+  # url = "https://twitter.com/yourusername"
+  
+  # Add more social platforms as needed
+  # This is important only when you are working with PaperMod Theme as the 
+  # latest Hugo has gotten rid of the .Site.Social variable, PaperMod Theme stil relies on it.
+
+  [[params.socialIcons]]
+  name = "GitHub"
+  url = "https://github.com/Tou-Rahman"
+  
+  [[params.socialIcons]]
+  name = "Facebook"
+  url = "https://www.facebook.com/vlsi.bracu/"
+
+
+
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
